@@ -1,0 +1,10 @@
+const express = require("express");
+const employeeRoutes = require("./employee");
+const departmentRoutes = require("./department");
+
+const router = express.Router();
+
+router.use("/employees", employeeRoutes);
+router.use("/departments", departmentRoutes);
+
+module.exports = router;

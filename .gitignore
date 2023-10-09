@@ -9,16 +9,16 @@ yarn.lock
 
 /certificates
 *.env
+
 # *test*.js
 *.txt
 dump.rdb
 nodemon.json
+
 #ignore specific files.
 test.js
 test2.js
 /ssl
 /cert
 
-
 node_modules/*
-.env
